@@ -1,99 +1,120 @@
-![Reactive Resume](https://i.imgur.com/FFc4nyZ.jpg)
-
-![App Version](https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amruthpillai/reactive-resume)](https://hub.docker.com/repository/docker/amruthpillai/reactive-resume)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/AmruthPillai)](https://github.com/sponsors/AmruthPillai)
-[![Crowdin](https://badges.crowdin.net/reactive-resume/localized.svg)](https://crowdin.com/project/reactive-resume)
-[![Discord](https://img.shields.io/discord/1173518977851473940?label=discord&link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW)](https://discord.gg/hzwkZbyvUW)
-
-# Reactive Resume
-
-A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.
-
-### [Go to App](https://rxresu.me/) | [Docs](https://docs.rxresu.me/)
-
-## Description
-
-Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.
-
-It's available in multiple languages and comes packed with features such as real-time editing, dozens of templates, drag-and-drop customisation, and integration with OpenAI for enhancing your writing.
-
-You can share a personalised link of your resume to potential employers, track its views or downloads, and customise your page layout by dragging-and-dropping sections. The platform also supports various font options and provides dozens of templates to choose from. And yes, there's even a dark mode for a more comfortable viewing experience.
-
-Start creating your standout resume with Reactive Resume today!
-
-## Templates
-
-| Azurill                                                      | Bronzor                                                     | Chikorita                                                   |
-| ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="https://i.imgur.com/jKgo04C.jpeg" width="200px" /> | <img src="https://i.imgur.com/DFNQZP2.jpg" width="200px" /> | <img src="https://i.imgur.com/Dwv8Y7f.jpg" width="200px" /> |
-
-| Ditto                                                       | Kakuna                                                      | Nosepass                                                    |
-| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="https://i.imgur.com/6c5lASL.jpg" width="200px" /> | <img src="https://i.imgur.com/268ML3t.jpg" width="200px" /> | <img src="https://i.imgur.com/npRLsPS.jpg" width="200px" /> |
-
-| Onyx                                                        | Pikachu                                                     | Rhyhorn                                                     |
-| ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="https://i.imgur.com/cxplXOW.jpg" width="200px" /> | <img src="https://i.imgur.com/Y9f7qsh.jpg" width="200px" /> | <img src="https://i.imgur.com/h4kQxy2.jpg" width="200px" /> |
-
-## Features
-
-- **Free, forever** and open-source
-- No telemetry, user tracking or advertising
-- You can self-host the application in less than 30 seconds
-- **Available in multiple languages** ([help add/improve your language here](https://translate.rxresu.me/))
-- Use your email address (or a throw-away address, no problem) to create an account
-- You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security
-- Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score
-- **Bring your own OpenAI API key** and unlock features such as improving your writing, fixing spelling and grammar or changing the tone of your text in one-click
-- Translate your resume into any language using ChatGPT and import it back for easier editing
-- Create single page resumes or a resume that spans multiple pages easily
-- Customize the colours and layouts to add a personal touch to your resume.
-- Customise your page layout as you like just by dragging-and-dropping sections
-- Create custom sections that are specific to your industry if the existing ones don't fit
-- Jot down personal notes specific to your resume that's only visible to you
-- Lock a resume to prevent making any further edits (useful for master templates)
-- **Dozens of templates** to choose from, ranging from professional to modern
-- Design your resume using the standardised EuroPass design template
-- Supports printing resumes in A4 or Letter page formats
-- Design your resume with any font that's available on [Google Fonts](https://fonts.google.com/)
-- **Share a personalised link of your resume** to companies or recruiters for them to get the latest updates
-- You can track the number of views or downloads your public resume has received
-- Built with state-of-the-art (at the moment) and dependable technologies that's battle tested and peer reviewed by the open-source community on GitHub
-- **MIT License**, so do what you like with the code as long as you credit the original author
-- And yes, there’s a dark mode too 🌓
-
-## Built With
-
-- React (Vite), for the frontend
-- NestJS, for the backend
-- Postgres (primary database)
-- Prisma ORM, which frees you to switch to any other relational database with a few minor changes in the code
-- Minio (for object storage: to store avatars, resume PDFs and previews)
-- Browserless (for headless chrome, to print PDFs and generate previews)
-- SMTP Server (to send password recovery emails)
-- GitHub/Google OAuth (for quickly authenticating users)
-- LinguiJS and Crowdin (for translation management and localization)
-
-## Star History
-
-<a href="https://star-history.com/#AmruthPillai/Reactive-Resume&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&type=Date" />
-  </picture>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/34a172f62213af3abf30c655d1a42744d57019f3866b321aa83d9f4d403d5248/68747470733a2f2f692e696d6775722e636f6d2f464663346e795a2e6a7067"><img src="https://camo.githubusercontent.com/34a172f62213af3abf30c655d1a42744d57019f3866b321aa83d9f4d403d5248/68747470733a2f2f692e696d6775722e636f6d2f464663346e795a2e6a7067" alt="反应性简历" data-canonical-src="https://i.imgur.com/FFc4nyZ.jpg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/244c34cb12fa621468de817129f01bb3dc554e3ded96fc6eeb1663863e4b660b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7061636b6167652d6a736f6e2f76657273696f6e2f416d7275746850696c6c61692f52656163746976652d526573756d653f6c6162656c3d76657273696f6e"><img src="https://camo.githubusercontent.com/244c34cb12fa621468de817129f01bb3dc554e3ded96fc6eeb1663863e4b660b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7061636b6167652d6a736f6e2f76657273696f6e2f416d7275746850696c6c61692f52656163746976652d526573756d653f6c6162656c3d76657273696f6e" alt="应用程序版本" data-canonical-src="https://img.shields.io/github/package-json/version/AmruthPillai/Reactive-Resume?label=version" style="max-width: 100%;"></a>
+<a href="https://hub.docker.com/repository/docker/amruthpillai/reactive-resume" rel="nofollow"><img src="https://camo.githubusercontent.com/c37c68b0e4c7d324ad7b3d34e7b370b3819b755f17386182de340f7eb5016f61/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f616d7275746870696c6c61692f72656163746976652d726573756d65" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/amruthpillai/reactive-resume" style="max-width: 100%;"></a>
+<a href="https://github.com/sponsors/AmruthPillai"><img src="https://camo.githubusercontent.com/2b64f102ca1e8def218fa5866838c4664aa672f770f05f64985cd98166aca16e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73706f6e736f72732f416d7275746850696c6c6169" alt="GitHub 赞助商" data-canonical-src="https://img.shields.io/github/sponsors/AmruthPillai" style="max-width: 100%;"></a>
+<a href="https://crowdin.com/project/reactive-resume" rel="nofollow"><img src="https://camo.githubusercontent.com/f542ee6a4de71ae1058fedd336e039a26fb7e790471ebdee8110ce479e0c2c2e/68747470733a2f2f6261646765732e63726f7764696e2e6e65742f72656163746976652d726573756d652f6c6f63616c697a65642e737667" alt="克罗丁" data-canonical-src="https://badges.crowdin.net/reactive-resume/localized.svg" style="max-width: 100%;"></a>
+<a href="https://discord.gg/hzwkZbyvUW" rel="nofollow"><img src="https://camo.githubusercontent.com/cb2631911af5f4fc59d66061e05a0a0b142dfb0e5480709596c9c4ee3c984906/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313137333531383937373835313437333934303f6c6162656c3d646973636f7264266c696e6b3d6874747073253341253246253246646973636f72642e6767253246687a776b5a6279765557" alt="不和谐" data-canonical-src="https://img.shields.io/discord/1173518977851473940?label=discord&amp;link=https%3A%2F%2Fdiscord.gg%2FhzwkZbyvUW" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反应性简历</font></font></h1><a id="user-content-reactive-resume" class="anchor" aria-label="永久链接：反应式简历" href="#reactive-resume"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费的开源简历生成器，可简化创建、更新和共享简历的过程。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><a href="https://rxresu.me/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转至应用程序</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font><a href="https://docs.rxresu.me/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></h3><a id="user-content-go-to-app--docs" class="anchor" aria-label="永久链接：转至应用程序 | 文档" href="#go-to-app--docs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></h2><a id="user-content-description" class="anchor" aria-label="固定链接：描述" href="#description"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reactive Resume 是一款免费的开源简历生成器，可简化创建、更新和共享简历的过程。由于没有用户跟踪或广告，您的隐私是重中之重。该平台非常用户友好，如果您希望完全拥有自己的数据，可以在不到 30 秒的时间内自行托管。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它支持多种语言，并具有实时编辑、数十种模板、拖放自定义以及与 OpenAI 集成等功能，可增强您的写作能力。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以向潜在雇主分享您的简历的个性化链接，跟踪其浏览量或下载量，并通过拖放部分自定义页面布局。该平台还支持各种字体选项，并提供数十种模板可供选择。是的，甚至还有暗模式，以获得更舒适的观看体验。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即开始使用 Reactive Resume 创建您出色的简历！</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板</font></font></h2><a id="user-content-templates" class="anchor" aria-label="固定链接：模板" href="#templates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<markdown-accessiblity-table data-catalyst=""><table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿苏里尔</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">布隆佐尔</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">菊草田</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ad05e66272887625839e3ae7fd9f095018762ba37231b725d35f22d96d9e44ec/68747470733a2f2f692e696d6775722e636f6d2f6a4b676f3034432e6a706567"><img src="https://camo.githubusercontent.com/ad05e66272887625839e3ae7fd9f095018762ba37231b725d35f22d96d9e44ec/68747470733a2f2f692e696d6775722e636f6d2f6a4b676f3034432e6a706567" width="200px" data-canonical-src="https://i.imgur.com/jKgo04C.jpeg" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b8cf5e1e89669727f3dc2191bf36ab6367d8c112bf714942815f43a7470534d5/68747470733a2f2f692e696d6775722e636f6d2f44464e515a50322e6a7067"><img src="https://camo.githubusercontent.com/b8cf5e1e89669727f3dc2191bf36ab6367d8c112bf714942815f43a7470534d5/68747470733a2f2f692e696d6775722e636f6d2f44464e515a50322e6a7067" width="200px" data-canonical-src="https://i.imgur.com/DFNQZP2.jpg" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4ea9628ce8b5f4ccf0f3053b0acb0120021518ab2628ddf81ba1aef50e797b11/68747470733a2f2f692e696d6775722e636f6d2f447776385937662e6a7067"><img src="https://camo.githubusercontent.com/4ea9628ce8b5f4ccf0f3053b0acb0120021518ab2628ddf81ba1aef50e797b11/68747470733a2f2f692e696d6775722e636f6d2f447776385937662e6a7067" width="200px" data-canonical-src="https://i.imgur.com/Dwv8Y7f.jpg" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<markdown-accessiblity-table data-catalyst=""><table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">同上</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卡库纳</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鼻通</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2abe6d581067dcd8463178169fe2baad83423b39bb9e3adf59991a0282fa8edc/68747470733a2f2f692e696d6775722e636f6d2f3663356c41534c2e6a7067"><img src="https://camo.githubusercontent.com/2abe6d581067dcd8463178169fe2baad83423b39bb9e3adf59991a0282fa8edc/68747470733a2f2f692e696d6775722e636f6d2f3663356c41534c2e6a7067" width="200px" data-canonical-src="https://i.imgur.com/6c5lASL.jpg" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f8feb00d23da56127544c84be09214abd5de97d610cb590a053c812d4836a08c/68747470733a2f2f692e696d6775722e636f6d2f3236384d4c33742e6a7067"><img src="https://camo.githubusercontent.com/f8feb00d23da56127544c84be09214abd5de97d610cb590a053c812d4836a08c/68747470733a2f2f692e696d6775722e636f6d2f3236384d4c33742e6a7067" width="200px" data-canonical-src="https://i.imgur.com/268ML3t.jpg" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9d851c8f7f0d022ae8afa498b633d1fa50bbe1511945e95b58d3fdd9b907edbf/68747470733a2f2f692e696d6775722e636f6d2f6e70524c7350532e6a7067"><img src="https://camo.githubusercontent.com/9d851c8f7f0d022ae8afa498b633d1fa50bbe1511945e95b58d3fdd9b907edbf/68747470733a2f2f692e696d6775722e636f6d2f6e70524c7350532e6a7067" width="200px" data-canonical-src="https://i.imgur.com/npRLsPS.jpg" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<markdown-accessiblity-table data-catalyst=""><table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缟玛瑙</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">皮卡丘</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">犀牛</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/68e80f2e4888546f1a99e6fa1dcc90085543bae32456047a787a6eaaea6f12bf/68747470733a2f2f692e696d6775722e636f6d2f6378706c584f572e6a7067"><img src="https://camo.githubusercontent.com/68e80f2e4888546f1a99e6fa1dcc90085543bae32456047a787a6eaaea6f12bf/68747470733a2f2f692e696d6775722e636f6d2f6378706c584f572e6a7067" width="200px" data-canonical-src="https://i.imgur.com/cxplXOW.jpg" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f692bfb5b4ef7943c5b69712c57644306094690f7bbb05aa32a7ae9ef832db8d/68747470733a2f2f692e696d6775722e636f6d2f593966377173682e6a7067"><img src="https://camo.githubusercontent.com/f692bfb5b4ef7943c5b69712c57644306094690f7bbb05aa32a7ae9ef832db8d/68747470733a2f2f692e696d6775722e636f6d2f593966377173682e6a7067" width="200px" data-canonical-src="https://i.imgur.com/Y9f7qsh.jpg" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e1b1b6eef83d9f3d3b5f7888ef95e1be7c09186106822d006635dcb96f8f8bb8/68747470733a2f2f692e696d6775722e636f6d2f68346b517879322e6a7067"><img src="https://camo.githubusercontent.com/e1b1b6eef83d9f3d3b5f7888ef95e1be7c09186106822d006635dcb96f8f8bb8/68747470733a2f2f692e696d6775722e636f6d2f68346b517879322e6a7067" width="200px" data-canonical-src="https://i.imgur.com/h4kQxy2.jpg" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor" aria-label="固定链接：功能" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">永久免费</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">且开源</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无遥测、用户跟踪或广告</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在不到 30 秒的时间内自行托管该应用程序</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供多种语言版本</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="https://translate.rxresu.me/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此帮助添加/改进您的语言</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用您的电子邮件地址（或临时地址，没问题）创建帐户</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还可以使用 GitHub 或 Google 帐户登录，甚至可以设置双因素身份验证以获得额外的安全性</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在一个帐户下创建任意数量的简历，并根据简历描述针对每份求职申请优化每份简历，以获得更高的 ATS 分数</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带上你自己的 OpenAI API 密钥</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，一键解锁各种功能，例如改进你的写作、修正拼写和语法或更改文本语气</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 ChatGPT 将您的简历翻译成任何语言，然后将其导回以便于编辑</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松创建单页简历或跨多页的简历</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义颜色和布局，为您的简历添加个性化风格。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需拖放部分即可根据需要自定义页面布局</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果现有部分不适合，请创建特定于您所在行业的自定义部分</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">记下简历中只有您自己可见的个人备注</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">锁定简历以防止进行任何进一步的编辑（对于主模板有用）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有数十种模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可供选择，从专业到现代</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用标准化的 EuroPass 设计模板设计您的简历</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持打印 A4 或 Letter 页面格式的简历</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="https://fonts.google.com/" rel="nofollow"><font style="vertical-align: inherit;">使用Google 字体</font></a><font style="vertical-align: inherit;">上的任何字体设计你的简历</font></font><a href="https://fonts.google.com/" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与公司或招聘人员分享您的简历个性化链接，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以便他们获取最新更新</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你可以跟踪你的公开简历的浏览量或下载量</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">采用目前最先进、最可靠的技术构建，经过 GitHub 上的开源社区的实战测试和同行评审</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIT 许可证</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，因此，只要您注明原作者，就可以随意使用代码</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是的，还有暗黑模式🌓</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内置</font></font></h2><a id="user-content-built-with" class="anchor" aria-label="固定链接：构建于" href="#built-with"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">React (Vite)，用于前端</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NestJS，用于后端</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Postgres（主数据库）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prisma ORM，只需对代码进行一些小改动，你就可以切换到任何其他关系数据库</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Minio（用于对象存储：存储头像、简历 PDF 和预览）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无浏览器（用于无头 Chrome，打印 PDF 并生成预览）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SMTP 服务器（用于发送密码恢复电子邮件）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub/Google OAuth（用于快速验证用户）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LinguiJS 和 Crowdin（用于翻译管理和本地化）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">星历史</font></font></h2><a id="user-content-star-history" class="anchor" aria-label="永久链接：明星历史" href="#star-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<a href="https://star-history.com/#AmruthPillai/Reactive-Resume&amp;Date" rel="nofollow">
+  <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/74668cdbb48f84178a5f64794074a93fb5ddcab7674253a29593c91f66302a99/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d416d7275746850696c6c61692f52656163746976652d526573756d6526747970653d44617465267468656d653d6461726b" data-canonical-src="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&amp;type=Date&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://camo.githubusercontent.com/c4c4f297c4dc8891c48a7cbf384b9e1e2c674cfa8e4c13c55c8615b9c8f1b24a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d416d7275746850696c6c61692f52656163746976652d526573756d6526747970653d44617465" data-canonical-src="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&amp;type=Date">
+    <img alt="星历史图" src="https://camo.githubusercontent.com/c4c4f297c4dc8891c48a7cbf384b9e1e2c674cfa8e4c13c55c8615b9c8f1b24a/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d416d7275746850696c6c61692f52656163746976652d526573756d6526747970653d44617465" data-canonical-src="https://api.star-history.com/svg?repos=AmruthPillai/Reactive-Resume&amp;type=Date" style="visibility:visible;max-width:100%;">
+  </picture></themed-picture>
 </a>
-
-## License
-
-Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
-
-_By the community, for the community._  
-A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
-
-<p>
-  <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="200px">
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reactive Resume 使用</font></font><a href="/AmruthPillai/Reactive-Resume/blob/main/LICENSE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MIT 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行打包和分发，该许可证允许商业使用、分发、修改和私人使用，前提是该软件的所有副本都包含相同的许可证和版权。</font></font></p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由社区发起，服务于社区。Amruth </font></font></em><font style="vertical-align: inherit;"><a href="https://www.amruthpillai.com/" rel="nofollow"><font style="vertical-align: inherit;">Pillai</font></a></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+的激情项目</font></font><a href="https://www.amruthpillai.com/" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto">
+  <a href="https://www.digitalocean.com/?utm_medium=opensource&amp;utm_source=Reactive-Resume" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/ec44fccebe29221553d627dbd875655320dfe981c578133d1214c5d07709c257/68747470733a2f2f6f70656e736f757263652e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f6174747269627574696f6e2f6173736574732f506f77657265644279444f2f444f5f506f77657265645f62795f42616467655f626c75652e737667" width="200px" data-canonical-src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" style="max-width: 100%;">
   </a>
 </p>
+</article></div>
